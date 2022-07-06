@@ -149,3 +149,20 @@ body {
   color: #163152;
   text-decoration: none;
 }
+
+.main-nav {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  column-gap: 471px;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation-item {
+  list-style-type: none;
+}
